@@ -36,7 +36,7 @@ Este projeto em Python conecta-se a uma conta de e-mail via IMAP, acessa uma pas
 ## 📁 Estrutura do Projeto
 
 ```
-email_downloader/
+AttachHunter/
 │
 ├── utils/                          # Funções auxiliares e gerenciamento de logs
 │   ├── logger.py                  # Configuração dos loggers (terminal e arquivo)
@@ -64,8 +64,8 @@ email_downloader/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/email-downloader.git
-cd email-downloader
+git clone https://github.com/RianHenrique/AttachHunter.git
+cd AttachHunter
 ```
 
 ### 2. Crie e edite o arquivo `.env`
@@ -79,7 +79,7 @@ Preencha suas credenciais e configurações no `.env`.
 ### 3. Instale as dependências
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### 4. Execute o script
